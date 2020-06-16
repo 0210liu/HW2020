@@ -1,0 +1,64 @@
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-panel {
+    width: 30em;
+    min-height: 20em;
+    margin-top:5em;
+
+    border: 1px solid #eee;
+    box-shadow: 4px 6px 6px #888;
+
+}
+
+.todo-editor input {
+    padding:5px 20px;
+    display:flex;
+}
+.todo-editor input {
+    flex-grow: 1;
+    font-size: 1.2em;
+    padding: 2px 5px;
+}
+
+.todo-items {
+    padding: 5px 20px;
+}
+
+.task.done > label {
+    text-decoration:line-through;
+}
+
+
+.todo-items > .task > input {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+
+.todo-items > .task > label {
+    flex-grow: 1;
+}
+
+.todo-items > .task > button {
+    border: none;
+    background: none;
+    color: blue;
+    cursor: pointer;
+}
+
+.todo-items > .task > button:hover {
+    font-weight: bolder;
+    background: none;
+    color: blue
+    cursor:pointer;
+
+}
+
+
+.task.done > label {
+    text-decoration: line-through;
+}
